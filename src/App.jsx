@@ -23,11 +23,10 @@ function App() {
         <PhoneMe />
         <Phone />
       </div>
-      {/*
       <Projects />
       <Skills />
       <Experience />
-      <Navbar />*/}
+      <Navbar />
     </>
   )
 }

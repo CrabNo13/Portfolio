@@ -60,8 +60,109 @@ body {
 }
 
 .phone {
+  position: relative;
   width: 50vw;
   height: auto;
+}
+
+.dialWheel {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  width: 54%;
+  height: auto;
+  animation: rotateDial 18s linear infinite;
+}
+
+.icon {
+  position: absolute;
+  background: none;
+  padding: 0;
+  border: none;
+  width: 16.5%;
+  height: auto;
+}
+
+.icon:hover {
+  width: 20%;
+}
+
+.twitterIcon {
+  top: 11%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: rotateTwitter 18s linear infinite;
+}
+
+.linkedinIcon {
+  top: 50%;
+  right: 11%;
+  transform: translateY(-50%);
+  animation: rotateLinkedin 18s linear infinite;
+}
+
+.githubIcon {
+  bottom: 11%;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: rotateGithub 18s linear infinite;
+}
+
+.emailIcon {
+  top: 50%;
+  left: 11%;
+  transform: translateY(-50%);
+  animation: rotateEmail 18s linear infinite;
+}
+
+@keyframes rotateDial {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotateTwitter {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translateX(-50%) rotate(-360deg);
+  }
+}
+
+@keyframes rotateLinkedin {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(-50%) rotate(-360deg);
+  }
+}
+
+@keyframes rotateGithub {
+  0% {
+    transform: translateX(-50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translateX(-50%) rotate(-360deg);
+  }
+}
+
+@keyframes rotateEmail {
+  0% {
+    transform: translateY(-50%) rotate(0deg);
+  }
+
+  100% {
+    transform: translateY(-50%) rotate(-360deg);
+  }
 }
 
 .profilePic {
@@ -105,11 +206,26 @@ body {
 }
 
 .aboutMe {
-  width: 20vw;
+  width: 16vw;
   height: auto;
 }
 
 .phoneMe {
+  width: 16vw;
+  height: auto;
+}
+
+.projects {
+  width: 16vw;
+  height: auto;
+}
+
+.skills {
+  width: 16vw;
+  height: auto;
+}
+
+.experience {
   width: 20vw;
   height: auto;
 }
@@ -128,4 +244,14 @@ body {
   align-items: center;
   justify-content: space-evenly;
   gap: 2vw;
+}
+
+@media (max-width:720px) {
+  .aboutSection {
+    flex-direction: column;
+  }
+
+  .contactSection {
+    flex-direction: column;
+  }
 }

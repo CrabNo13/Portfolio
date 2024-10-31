@@ -8,20 +8,6 @@ export function Phone() {
                 </g>
                 <path d="M127.12 171.246C127.12 171.246 94.7975 211.482 117.909 194.272C141.021 177.062 119.584 263.77 122.933 223.16C126.283 182.55 157.264 275.492 135.912 247.861C114.56 220.23 152.257 246.901 155.589 265.864C158.922 284.826 208.76 311.079 169.824 283.866C130.888 256.653 205.411 337.874 184.477 303.543C163.544 269.213 184.477 370.53 184.477 333.269C184.477 296.007 167.731 390.207 184.477 360.9C201.224 331.593 167.584 407.369 179.453 388.113C191.323 368.858 127.937 448.786 169.824 417.001C211.711 385.217 155.589 463.891 155.589 441.702C155.589 419.514 113.304 477.289 144.285 466.822C175.267 456.355 102.419 500.316 127.957 489.849C153.496 479.382 74.3679 531.297 111.211 512.875C148.053 494.454 58.4585 552.649 93.2079 530.878C127.957 509.107 47.5732 585.723 76.8799 555.579C106.187 525.435 13.2425 607.494 57.2025 577.768C101.163 548.043 18.6851 606.237 45.8985 596.608C73.1119 586.979 -5.59757 642.661 30.8265 617.96C67.2505 593.259 -17.7389 669.875 9.47447 652.709C36.6878 635.543 23.2905 685.784 9.47447 670.712C-4.34156 655.639 45.4798 675.317 36.6878 664.013C27.8958 652.709 82.3226 627.59 45.8985 642.661C9.47447 657.733 124.608 626.001 76.8799 626.333C29.1518 626.665 145.541 600.376 111.211 603.307C76.8799 606.237 140.099 625.496 127.957 586.979C115.816 548.461 190.757 569.395 155.589 571.907C120.421 574.418 199.968 552.23 175.267 555.579C150.565 558.928 188.664 530.878 188.664 530.878" stroke="#5DFF51" stroke-width="8" />
                 <circle cx="466" cy="470" r="229.5" fill="#B0FFAD" fill-opacity="0.11" stroke="#B0FFAD" stroke-width="3" />
-                <g filter="url(#filter1_d_33_180)">
-                    <circle cx="466" cy="470" r="192.5" stroke="#DBFFD8" stroke-width="3" shape-rendering="crispEdges" />
-                </g>
-                <circle cx="466" cy="338" r="36" stroke="#2DA700" stroke-width="2" />
-                <circle cx="466" cy="602" r="36" stroke="#2DA700" stroke-width="2" />
-                <circle cx="596" cy="470" r="36" stroke="#2DA700" stroke-width="2" />
-                <circle cx="336" cy="470" r="36" stroke="#2DA700" stroke-width="2" />
-                <circle cx="559" cy="375" r="36" stroke="#2DA700" stroke-width="2" />
-                <circle cx="373" cy="375" r="36" stroke="#2DA700" stroke-width="2" />
-                <circle cx="559" cy="565" r="36" stroke="#2DA700" stroke-width="2" />
-                <circle cx="373" cy="565" r="36" stroke="#2DA700" stroke-width="2" />
-                <g filter="url(#filter2_d_33_180)">
-                    <path d="M639.5 639L567 559L574.5 551L659.5 614.5L639.5 639Z" stroke="#FFE9C9" stroke-width="2" shape-rendering="crispEdges" />
-                </g>
                 <defs>
                     <filter id="filter0_d_33_180" x="80.695" y="0.988281" width="737.921" height="811.554" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
                         <feFlood flood-opacity="0" result="BackgroundImageFix" />
@@ -33,29 +19,62 @@ export function Phone() {
                         <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_33_180" />
                         <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_33_180" result="shape" />
                     </filter>
-                    <filter id="filter1_d_33_180" x="254" y="258" width="424" height="424" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                        <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_33_180" />
-                        <feOffset />
-                        <feGaussianBlur stdDeviation="7" />
-                        <feComposite in2="hardAlpha" operator="out" />
-                        <feColorMatrix type="matrix" values="0 0 0 0 0.364555 0 0 0 0 1 0 0 0 0 0.319167 0 0 0 1 0" />
-                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_33_180" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_33_180" result="shape" />
-                    </filter>
-                    <filter id="filter2_d_33_180" x="560.64" y="544.664" width="105.295" height="100.869" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                        <feOffset />
-                        <feGaussianBlur stdDeviation="2.5" />
-                        <feComposite in2="hardAlpha" operator="out" />
-                        <feColorMatrix type="matrix" values="0 0 0 0 0.984314 0 0 0 0 0.658824 0 0 0 0 0.239216 0 0 0 1 0" />
-                        <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_33_180" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_33_180" result="shape" />
-                    </filter>
                 </defs>
             </svg>
+            <div className="dialWheel">
+                <svg viewBox="0 0 424 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_d_94_297)">
+                        <circle cx="212" cy="212" r="192.5" stroke="#DBFFD8" stroke-width="3" shape-rendering="crispEdges" />
+                    </g>
+                    <circle cx="212" cy="80" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="212" cy="344" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="342" cy="212" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="82" cy="212" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="305" cy="117" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="119" cy="117" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="305" cy="307" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="119" cy="307" r="36" stroke="#2DA700" stroke-width="2" />
+                    <circle cx="212" cy="212" r="74.5" fill="#C3FFAA" stroke="#68FF77" stroke-width="3" />
+                    <defs>
+                        <filter id="filter0_d_94_297" x="0" y="0" width="424" height="424" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feMorphology radius="4" operator="dilate" in="SourceAlpha" result="effect1_dropShadow_94_297" />
+                            <feOffset />
+                            <feGaussianBlur stdDeviation="7" />
+                            <feComposite in2="hardAlpha" operator="out" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.364555 0 0 0 0 1 0 0 0 0 0.319167 0 0 0 1 0" />
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_94_297" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_94_297" result="shape" />
+                        </filter>
+                    </defs>
+                </svg>
+                <button className="icon twitterIcon"><svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="35" cy="35" r="35" fill="black" />
+                    <path d="M47.749 56.8852L15.6264 12.1146L22.707 12.1142L54.5754 56.8852L47.749 56.8852Z" stroke="white" stroke-width="5" />
+                    <path d="M29.6794 36.0818L32.1506 39.4757L15.0289 59.4997L10.7925 59.4996L29.6794 36.0818Z" fill="white" />
+                    <path d="M55.0958 9.60946L59.4291 9.60969L39.3876 30.9906L36.9163 27.5967L55.0958 9.60946Z" fill="white" />
+                </svg>
+                </button>
+                <button className="icon linkedinIcon"><svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="70" height="70" rx="34" fill="#3775FF" />
+                    <path d="M46.6667 23.3333C51.3079 23.3333 55.7591 25.177 59.041 28.4589C62.3229 31.7408 64.1667 36.192 64.1667 40.8333V61.2499H52.5V40.8333C52.5 39.2862 51.8854 37.8024 50.7914 36.7085C49.6975 35.6145 48.2138 34.9999 46.6667 34.9999C45.1196 34.9999 43.6358 35.6145 42.5419 36.7085C41.4479 37.8024 40.8333 39.2862 40.8333 40.8333V61.2499H29.1667V40.8333C29.1667 36.192 31.0104 31.7408 34.2923 28.4589C37.5742 25.177 42.0254 23.3333 46.6667 23.3333Z" fill="white" />
+                    <path d="M17.5 26.2499H5.83333V61.2499H17.5V26.2499Z" fill="white" />
+                    <path d="M11.6667 17.4999C14.8883 17.4999 17.5 14.8882 17.5 11.6666C17.5 8.44492 14.8883 5.83325 11.6667 5.83325C8.445 5.83325 5.83333 8.44492 5.83333 11.6666C5.83333 14.8882 8.445 17.4999 11.6667 17.4999Z" fill="white" />
+                </svg>
+                </button>
+                <button className="icon githubIcon"><svg viewBox="0 0 70 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.4133 54.7535C23.4133 55.0347 23.0887 55.2597 22.6794 55.2597C22.2137 55.3019 21.8891 55.0769 21.8891 54.7535C21.8891 54.4723 22.2137 54.2473 22.623 54.2473C23.0464 54.2051 23.4133 54.4301 23.4133 54.7535ZM19.0242 54.1208C18.9254 54.402 19.2077 54.7254 19.631 54.8097C19.998 54.9503 20.4214 54.8097 20.506 54.5285C20.5907 54.2473 20.3226 53.9239 19.8992 53.7974C19.5323 53.6989 19.123 53.8395 19.0242 54.1208ZM25.2621 53.8817C24.8528 53.9801 24.5706 54.2473 24.6129 54.5707C24.6552 54.8519 25.0222 55.0347 25.4456 54.9363C25.8548 54.8379 26.1371 54.5707 26.0948 54.2895C26.0524 54.0223 25.6714 53.8395 25.2621 53.8817ZM34.5484 0C14.9738 0 0 14.8062 0 34.3088C0 49.9025 9.85081 63.2463 23.9214 67.9427C25.7278 68.2661 26.3629 67.1553 26.3629 66.2413C26.3629 65.3695 26.3206 60.5607 26.3206 57.6079C26.3206 57.6079 16.4415 59.717 14.3669 53.4177C14.3669 53.4177 12.7581 49.326 10.4435 48.2714C10.4435 48.2714 7.21169 46.0638 10.6694 46.106C10.6694 46.106 14.1835 46.3872 16.1169 49.7337C19.2077 55.1613 24.3871 53.6005 26.4052 52.6725C26.7298 50.4227 27.6472 48.8619 28.6633 47.9339C20.7742 47.0621 12.8145 45.9232 12.8145 32.3965C12.8145 28.5297 13.8871 26.5893 16.1452 24.1146C15.7782 23.2006 14.5786 19.4323 16.5121 14.5672C19.4617 13.6532 26.25 18.3637 26.25 18.3637C29.0726 17.5762 32.1069 17.1685 35.1129 17.1685C38.119 17.1685 41.1532 17.5762 43.9758 18.3637C43.9758 18.3637 50.7641 13.6392 53.7137 14.5672C55.6472 19.4463 54.4476 23.2006 54.0806 24.1146C56.3387 26.6034 57.7218 28.5438 57.7218 32.3965C57.7218 45.9654 49.4093 47.0481 41.5202 47.9339C42.8185 49.0447 43.9194 51.1539 43.9194 54.4582C43.9194 59.1968 43.877 65.0602 43.877 66.2132C43.877 67.1272 44.5262 68.238 46.3185 67.9146C60.4315 63.2463 70 49.9025 70 34.3088C70 14.8062 54.123 0 34.5484 0ZM13.7177 48.4964C13.5343 48.637 13.5766 48.9604 13.8165 49.2275C14.0423 49.4525 14.3669 49.5509 14.5504 49.3681C14.7339 49.2275 14.6915 48.9041 14.4516 48.637C14.2258 48.412 13.9012 48.3136 13.7177 48.4964ZM12.1935 47.3574C12.0948 47.5402 12.2359 47.7652 12.5181 47.9058C12.744 48.0464 13.0262 48.0042 13.125 47.8074C13.2238 47.6246 13.0827 47.3996 12.8004 47.259C12.5181 47.1746 12.2923 47.2168 12.1935 47.3574ZM16.7661 52.3631C16.5403 52.5459 16.625 52.9678 16.9496 53.2349C17.2742 53.5583 17.6835 53.6005 17.8669 53.3755C18.0504 53.1927 17.9657 52.7709 17.6835 52.5037C17.373 52.1803 16.9496 52.1382 16.7661 52.3631ZM15.1573 50.2962C14.9315 50.4368 14.9315 50.8024 15.1573 51.1258C15.3831 51.4492 15.7641 51.5898 15.9476 51.4492C16.1734 51.2664 16.1734 50.9008 15.9476 50.5774C15.75 50.254 15.3831 50.1134 15.1573 50.2962Z" fill="white" />
+                </svg>
+                </button>
+                <button className="icon emailIcon"><svg viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="35" cy="35" r="35" fill="black" />
+                    <path d="M62.2471 27.199C62.6838 26.8518 63.3333 27.1766 63.3333 27.7253V50.625C63.3333 53.5924 60.9257 56 57.9583 56H11.375C8.40755 56 6 53.5924 6 50.625V27.7365C6 27.1766 6.63828 26.863 7.0862 27.2102C9.59453 29.1586 12.9203 31.6333 24.3422 39.931C26.7049 41.6555 30.6914 45.2836 34.6666 45.2612C38.6643 45.2948 42.7291 41.5883 45.0023 39.931C56.4242 31.6333 59.7388 29.1474 62.2471 27.199ZM34.6666 41.6667C37.2646 41.7115 41.0047 38.3969 42.8859 37.0307C57.7455 26.2471 58.8765 25.3065 62.3031 22.619C62.9526 22.1151 63.3333 21.3312 63.3333 20.5026V18.375C63.3333 15.4076 60.9257 13 57.9583 13H11.375C8.40755 13 6 15.4076 6 18.375V20.5026C6 21.3312 6.38073 22.1039 7.03021 22.619C10.4568 25.2953 11.5878 26.2471 26.4474 37.0307C28.3286 38.3969 32.0687 41.7115 34.6666 41.6667Z" fill="#28BBFF" />
+                    <path d="M23.5 39L7 54.5" stroke="black" stroke-width="3" />
+                    <path d="M45 38L63 55" stroke="black" stroke-width="3" />
+                </svg>
+                </button>
+            </div>
         </div>
     )
 }
