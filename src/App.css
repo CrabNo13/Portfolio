@@ -68,8 +68,8 @@ body {
 
 .dialWheel {
   position: absolute;
-  top: 30%;
-  left: 30%;
+  top: 32%;
+  left: 25%;
   width: 54%;
   height: auto;
   animation: rotateDial 18s linear infinite;
@@ -88,6 +88,7 @@ body {
 
 .icon:hover {
   width: 20%;
+  box-shadow: 0px 0px 8px 5px rgb(108, 255, 3);
 }
 
 .twitterIcon {
@@ -172,6 +173,15 @@ body {
 
 .projects {
   width: 12vw;
+  height: auto;
+}
+
+.projectItem {
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(198, 91, 255);
+  box-shadow: 0px 0px 8px 5px rgb(162, 0, 162);
+  aspect-ratio: 4 / 5;
+  width: 10vw;
   height: auto;
 }
 
@@ -313,7 +323,7 @@ body {
 
 .contactSection {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
   gap: 2vw;
@@ -326,6 +336,15 @@ body {
   justify-content: space-evenly;
   gap: 2vw;
 }
+
+.projectsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2vw;
+}
+
 
 @media (max-width:520px) {
   .aboutSection {

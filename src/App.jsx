@@ -7,6 +7,7 @@ import { HomePage } from '../elements/Homepage'
 import { AboutMe } from '../elements/AboutMe'
 import { PhoneMe } from '../elements/PhoneMe'
 import { Projects } from '../elements/Projects'
+import { ProjectItems } from '../elements/ProjectItems'
 import { Skills } from '../elements/Skills'
 import { SkillIcons } from '../elements/SkillIcons'
 import { Experience } from '../elements/Experience'
@@ -24,7 +25,10 @@ function App() {
         <PhoneMe />
         <Phone />
       </div>
-      <Projects />
+      <div className='projectsSection'>
+        <Projects />
+        <ProjectItems />
+      </div>
       <div className='skillsSection'>
         <Skills />
         <SkillIcons />
