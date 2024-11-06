@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 12vh;
 }
 
 .navbar {
@@ -175,36 +176,115 @@ body {
 }
 
 .skills {
-  width: 12vw;
+  width: 14vw;
   height: auto;
 }
 
 .skillIconsContainer {
   display: flex;
-  justify-items: center;
-  justify-content: center;
-  flex-direction: row;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  max-width: 55vw;
   gap: 1vw;
-  border: 3px solid rgb(166, 255, 118);
 }
 
 .skillTextPair {
-  border: 1px double green;
+  border: 1px double rgb(186, 168, 0);
   display: flex;
   flex: 1 1 20%;
-  max-width: 20%;
-  flex-direction: column;
+  gap: 8%;
+  padding: 1%;
+  max-width: fit-content;
   align-items: center;
 }
 
 .skillTextPair:hover {
-  background-color: rgba(57, 255, 47, 0.214);
+  color: white;
+}
+
+.react {
+  color: rgb(12, 231, 255);
+}
+
+.react:hover {
+  background-color: rgba(28, 253, 253, 0.4);
+}
+
+.node {
+  color: rgb(120, 228, 77);
+}
+
+.node:hover {
+  background-color: rgba(49, 252, 49, 0.376);
+}
+
+.mongodb {
+  color: #61c100;
+}
+
+.mongodb:hover {
+  background-color: #4a9e007c;
+}
+
+.express {
+  color: rgb(186, 186, 186);
+}
+
+.express:hover {
+  background-color: rgba(255, 255, 255, 0.373);
+}
+
+.javascript {
+  color: rgb(231, 231, 0);
+}
+
+.javascript:hover {
+  background-color: rgba(255, 255, 71, 0.419);
+}
+
+.git {
+  color: rgb(255, 180, 40);
+}
+
+.git:hover {
+  background-color: rgba(255, 166, 0, 0.351);
+}
+
+.html {
+  color: rgb(255, 142, 12);
+}
+
+.html:hover {
+  background-color: rgba(211, 98, 0, 0.499);
+}
+
+.css {
+  color: rgb(13, 170, 255);
+}
+
+.css:hover {
+  background-color: rgba(26, 186, 255, 0.367);
+}
+
+.python {
+  color: rgb(255, 247, 4)
+}
+
+.python:hover {
+  background-color: rgba(0, 83, 207, 0.427);
+}
+
+.figma {
+  color: rgb(223, 134, 255);
+}
+
+.figma:hover {
+  background-color: rgba(162, 63, 255, 0.521);
 }
 
 .skill {
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
 }
 
 .skill:hover {
@@ -212,10 +292,10 @@ body {
 }
 
 .skillText {
-  color: white;
   font-family: "Kalam", cursive;
   font-weight: 900;
   font-style: normal;
+  font-size: larger;
 }
 
 .experience {
@@ -241,13 +321,13 @@ body {
 
 .skillsSection {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   gap: 2vw;
 }
 
-@media (max-width:720px) {
+@media (max-width:520px) {
   .aboutSection {
     flex-direction: column;
   }
@@ -270,6 +350,22 @@ body {
 
   .contactSection {
     flex-direction: column;
+  }
+
+  .skillsSection {
+    flex-direction: column;
+  }
+
+  .skillIconsContainer {
+    max-width: 80vw;
+  }
+
+  .skills {
+    width: 30vw;
+  }
+
+  .skillText {
+    font-size: medium;
   }
 }
 
