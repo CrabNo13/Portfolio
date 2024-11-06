@@ -8,10 +8,7 @@ body {
 }
 
 #root {
-  width: 100%;
-  min-width: 100vw;
-  min-height: 100vh;
-  background-color: black;
+  background-color: rgb(15, 0, 26);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,14 +51,17 @@ body {
 }
 
 .tv {
-  width: 60vw;
+  width: 46vw;
   height: auto;
   position: relative;
+  font-family: "Kalam", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .phone {
   position: relative;
-  width: 50vw;
+  width: 35vw;
   height: auto;
 }
 
@@ -75,12 +75,14 @@ body {
 }
 
 .icon {
+  display: flex;
   position: absolute;
   background: none;
   padding: 0;
-  border: none;
   width: 16.5%;
   height: auto;
+  border: 1px solid #00c200;
+  border-radius: 60%;
 }
 
 .icon:hover {
@@ -113,6 +115,172 @@ body {
   left: 11%;
   transform: translateY(-50%);
   animation: rotateEmail 18s linear infinite;
+}
+
+.profilePic {
+  position: absolute;
+  top: 41%;
+  left: 14%;
+  width: 10vw;
+  height: auto;
+  border-radius: 60%;
+}
+
+.profileInfo {
+  position: absolute;
+  top: 39%;
+  left: 37%;
+}
+
+.profileName {
+  color: blueviolet;
+  font-size: 2.4vw;
+  font-weight: 700;
+}
+
+.profileText {
+  color: white;
+  font-size: 1.5vw;
+  margin: 2px;
+}
+
+.profileLocation {
+  position: absolute;
+  bottom: 13%;
+  left: 16%;
+  color: white;
+  font-size: 1.2vw;
+}
+
+.sun {
+  width: 20vw;
+  height: auto;
+  display: flex;
+}
+
+.aboutMe {
+  width: 12vw;
+  height: auto;
+  animation: signAnimOne 3s ease-in-out infinite;
+}
+
+.phoneMe {
+  width: 12vw;
+  height: auto;
+}
+
+.projects {
+  width: 12vw;
+  height: auto;
+}
+
+.skills {
+  width: 12vw;
+  height: auto;
+}
+
+.skillIconsContainer {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1vw;
+  border: 3px solid rgb(166, 255, 118);
+}
+
+.skillTextPair {
+  border: 1px double green;
+  display: flex;
+  flex: 1 1 20%;
+  max-width: 20%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skillTextPair:hover {
+  background-color: rgba(57, 255, 47, 0.214);
+}
+
+.skill {
+  width: 5vw;
+  height: 5vw;
+}
+
+.skill:hover {
+  animation: rotateSkill 1s ease-in-out;
+}
+
+.skillText {
+  color: white;
+  font-family: "Kalam", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.experience {
+  width: 12vw;
+  height: auto;
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2vw;
+}
+
+.contactSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2vw;
+}
+
+.skillsSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2vw;
+}
+
+@media (max-width:720px) {
+  .aboutSection {
+    flex-direction: column;
+  }
+
+  .aboutMe {
+    width: 30vw;
+  }
+
+  .tv {
+    width: 98vw;
+  }
+
+  .phoneMe {
+    width: 30vw;
+  }
+
+  .phone {
+    width: 90vw;
+  }
+
+  .contactSection {
+    flex-direction: column;
+  }
+}
+
+@keyframes rotateSkill {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
 }
 
 @keyframes rotateDial {
@@ -165,93 +333,21 @@ body {
   }
 }
 
-.profilePic {
-  position: absolute;
-  top: 41%;
-  left: 14%;
-  width: 10vw;
-  height: auto;
-  border-radius: 60%;
-}
-
-.profileInfo {
-  position: absolute;
-  top: 35%;
-  left: 34%;
-}
-
-.profileName {
-  color: blueviolet;
-  font-size: 4vw;
-}
-
-.profileText {
-  color: white;
-  font-size: 2.3vw;
-  margin: 2px;
-}
-
-.profileLocation {
-  position: absolute;
-  bottom: 11%;
-  left: 16%;
-  color: white;
-  font-size: 2vw;
-}
-
-.sun {
-  width: 50vw;
-  height: auto;
-  display: flex;
-}
-
-.aboutMe {
-  width: 16vw;
-  height: auto;
-}
-
-.phoneMe {
-  width: 16vw;
-  height: auto;
-}
-
-.projects {
-  width: 16vw;
-  height: auto;
-}
-
-.skills {
-  width: 16vw;
-  height: auto;
-}
-
-.experience {
-  width: 20vw;
-  height: auto;
-}
-
-.aboutSection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 2vw;
-}
-
-.contactSection {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 2vw;
-}
-
-@media (max-width:720px) {
-  .aboutSection {
-    flex-direction: column;
+@keyframes signAnimOne {
+  0% {
+    transform: translateX(-10%);
   }
 
-  .contactSection {
-    flex-direction: column;
+  50% {
+    transform: translateX(10%);
   }
+
+  100% {
+    transform: translateX(-10%);
+  }
+}
+
+@font-face {
+  font-family: Test1;
+  src: url('https://fonts.googleapis.com/css2?family=Jua&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Grotesk:wght@300..700&display=swap');
 }
