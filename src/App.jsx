@@ -1,18 +1,15 @@
-import './App.css'
+import './App.css';
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import { Tv } from '../elements/Tv'
-import { Phone } from '../elements/Phone'
-import { Navbar } from '../components/navbar'
-import { HomePage } from '../elements/Homepage'
-import { AboutMe } from '../elements/AboutMe'
-import { PhoneMe } from '../elements/PhoneMe'
-import { Projects } from '../elements/Projects'
-import { ProjectItems } from '../elements/ProjectItems'
-import { Skills } from '../elements/Skills'
-import { SkillIcons } from '../elements/SkillIcons'
-import { Experience } from '../elements/Experience'
+import { Navbar } from '../components/navbar';
+import { HomePage } from '../elements/Homepage';
+import AboutSection from '../components/AboutSection';
+import ContactSection from '../components/ContactSection';
+import ProjectsSection from '../components/ProjectsSection';
+import SkillsSection from '../components/SkillsSection';
+import { Experience } from '../elements/Experience';
+
 function App() {
   const [init, setInit] = useState(false);
 
@@ -101,22 +98,10 @@ function App() {
           options={options}
         />
         <HomePage />
-        <div className='aboutSection'>
-          <AboutMe />
-          <Tv />
-        </div>
-        <div className='contactSection'>
-          <PhoneMe />
-          <Phone />
-        </div>
-        <div className='projectsSection'>
-          <Projects />
-          <ProjectItems />
-        </div>
-        <div className='skillsSection'>
-          <Skills />
-          <SkillIcons />
-        </div>
+        <AboutSection />
+        <ContactSection />
+        <ProjectsSection />
+        <SkillsSection />
         <Experience />
         <Navbar />
       </>

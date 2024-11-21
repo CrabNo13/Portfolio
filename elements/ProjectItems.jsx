@@ -1,8 +1,12 @@
-export function ProjectItems() {
+export function ProjectItems({ setSelectedProject }) {
+    function handleProjectClick() {
+        setSelectedProject(1)
+    }
+
     return (
         <div>
-            <button className="projectItem">
-                <h2>Stairs Game</h2>
+            <button className="projectItem" onClick={handleProjectClick}>
+                <h2 style={{ color: 'whitesmoke' }}>Vivimus Pecunia</h2>
             </button>
         </div>
     )
